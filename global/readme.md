@@ -8,6 +8,7 @@
  value  | character varying | not null
 Indexes:
     "colour_pkey" PRIMARY KEY, btree (id)
+    "colour_id_key" UNIQUE CONSTRAINT, btree (id)
     "colour_value_key" UNIQUE CONSTRAINT, btree (value)
 Check constraints:
     "valid_value" CHECK (value::text ~* '^#[0-9A-F]{6}$'::text)
@@ -25,8 +26,9 @@ Referenced by:
  name   | character varying | not null
  colour | character varying | not null
 Indexes:
-    "region_pkey" PRIMARY KEY, btree (id)
+    "region_pkey" PRIMARY KEY, btree (id)  
     "region_colour_key" UNIQUE CONSTRAINT, btree (colour)
+    "region_id_key" UNIQUE CONSTRAINT, btree (id)
     "region_name_key" UNIQUE CONSTRAINT, btree (name)
 Foreign-key constraints:
     "region_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
