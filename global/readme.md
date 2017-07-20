@@ -1,5 +1,26 @@
-## Global reference files/control paramteres
+## Global reference files & control paramteres
+
 ---
+
+#### `global.colour` table definition
+```
+ Column |       Type        | Modifiers 
+--------+-------------------+-----------
+ id     | character varying | not null
+ value  | character varying | not null
+Indexes:
+    "colour_pkey" PRIMARY KEY, btree (id)
+    "colour_value_key" UNIQUE CONSTRAINT, btree (value)
+Check constraints:
+    "valid_value" CHECK (value::text ~* '^#[0-9A-F]{6}$'::text)
+    "valid_value_length" CHECK (length(value::text) = 7)
+Referenced by:
+    TABLE "oda_bundle" CONSTRAINT "oda_bundle_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
+    TABLE "region" CONSTRAINT "region_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
+    TABLE "sector" CONSTRAINT "sector_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
+```
+## Notes
+
 #### `sector.csv`
 
 id|name|colour
