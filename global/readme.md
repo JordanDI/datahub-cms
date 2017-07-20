@@ -17,7 +17,7 @@ Referenced by:
     TABLE "region" CONSTRAINT "region_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
     TABLE "sector" CONSTRAINT "sector_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ```
-### `global.region` table definition
+#### `global.region` table definition
 ```
  Column |       Type        | Modifiers 
 --------+-------------------+-----------
@@ -31,6 +31,24 @@ Indexes:
 Foreign-key constraints:
     "region_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ```
+#### `global.sector` table definition
+```
+ Column |       Type        | Modifiers 
+--------+-------------------+-----------
+ id     | character varying | not null
+ name   | character varying | not null
+ colour | character varying | not null
+Indexes:
+    "sector_pkey" PRIMARY KEY, btree (id)
+    "sector_colour_key" UNIQUE CONSTRAINT, btree (colour)
+    "sector_id_key" UNIQUE CONSTRAINT, btree (id)
+    "sector_name_key" UNIQUE CONSTRAINT, btree (name)
+Foreign-key constraints:
+    "sector_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
+Referenced by:
+    TABLE "oda" CONSTRAINT "unbundling_aid_oda_sector_fkey" FOREIGN KEY (sector) REFERENCES sector(id) ON UPDATE CASCADE ON DELETE RESTRICT
+```
+
 ## Notes
 
 #### `sector.csv`
