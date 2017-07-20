@@ -1,0 +1,14 @@
+id,name,colour
+afica,Africa,red
+america,America,purple
+asia,Asia,orange
+europe,Europe,blue-darker
+far-east-asia,Far East Asia,yellow-dark
+middle-east,Middle East,grey-darker
+north-central-america,North & Central America,blue
+north-of-sahara,North Africa,yellow-darker
+oceania,Oceania,orange-darker
+south-america,South America,purple-darker
+south-central-asia,South & Central Asia,blue-light
+south-of-sahara,Sub-Saharan Africa,red-darker
+unspecified,Unspecified,grey-lighter
