@@ -61,6 +61,24 @@ Indexes:
 Referenced by:
     TABLE "oda" CONSTRAINT "unbundling_aid_oda_channel_fkey" FOREIGN KEY (channel) REFERENCES channel(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ```
+#### `global.oda_bundle` table definition
+```
+ Column |       Type        | Modifiers 
+--------+-------------------+-----------
+ id     | character varying | not null
+ name   | character varying | not null
+ colour | character varying | not null
+Indexes:
+    "oda_bundle_pkey" PRIMARY KEY, btree (id)
+    "oda_bundle_colour_key" UNIQUE CONSTRAINT, btree (colour)
+    "oda_bundle_id_key" UNIQUE CONSTRAINT, btree (id)
+    "oda_bundle_name_key" UNIQUE CONSTRAINT, btree (name)
+Foreign-key constraints:
+    "oda_bundle_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
+Referenced by:
+    TABLE "oda" CONSTRAINT "unbundling_aid_oda_bundle_fkey" FOREIGN KEY (bundle) REFERENCES oda_bundle(id) ON UPDATE CASCADE ON DELETE RESTRICT
+```
+
 ## Notes
 
 #### `sector.csv`
