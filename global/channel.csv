@@ -1,0 +1,11 @@
+id,name
+multilateral,Multilateral
+ngo-donor,NGO (donor-country based)
+ngo-recipient,NGO (recipient-country based)
+ngo-unknown,NGO (unknown country)
+other,Other (private sector, think-tank, etc.)
+public-private-partnership,Public private partnership
+public-sector-donor,Public sector (donor government)
+public-sector-recipient,Public sector (recipient government)
+public-sector-unknown,Public sector (unknown country)
+unspecified,Unspecified
