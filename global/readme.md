@@ -48,7 +48,19 @@ Foreign-key constraints:
 Referenced by:
     TABLE "oda" CONSTRAINT "unbundling_aid_oda_sector_fkey" FOREIGN KEY (sector) REFERENCES sector(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ```
-
+#### `global.channel` table definition
+```
+ Column |       Type        | Modifiers 
+--------+-------------------+-----------
+ id     | character varying | not null
+ name   | character varying | not null
+Indexes:
+    "channel_pkey" PRIMARY KEY, btree (id)
+    "channel_id_key" UNIQUE CONSTRAINT, btree (id)
+    "channel_name_key" UNIQUE CONSTRAINT, btree (name)
+Referenced by:
+    TABLE "oda" CONSTRAINT "unbundling_aid_oda_channel_fkey" FOREIGN KEY (channel) REFERENCES channel(id) ON UPDATE CASCADE ON DELETE RESTRICT
+```
 ## Notes
 
 #### `sector.csv`
