@@ -1,0 +1,9 @@
+id,name,colour
+cash-grant,Cash grant,red-light
+cash-loan-equity,Cash (loan/equity),red
+commodities-food,Commodities & food,purple-lighter
+export-credit,Export credit,grey-darker
+gis-nngos,Global initiatives & NNGOs,blue
+mixed-project-aid,Mixed project aid,yellow
+non-transfer,Non-transfer,orange
+technical-ooperation,Technical cooperation,blue-darker
