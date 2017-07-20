@@ -1,7 +1,5 @@
 ## Global reference files & control paramteres
 
----
-
 #### `global.colour` table definition
 ```
  Column |       Type        | Modifiers 
@@ -18,6 +16,20 @@ Referenced by:
     TABLE "oda_bundle" CONSTRAINT "oda_bundle_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
     TABLE "region" CONSTRAINT "region_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
     TABLE "sector" CONSTRAINT "sector_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
+```
+### `global.region` table definition
+```
+ Column |       Type        | Modifiers 
+--------+-------------------+-----------
+ id     | character varying | not null
+ name   | character varying | not null
+ colour | character varying | not null
+Indexes:
+    "region_pkey" PRIMARY KEY, btree (id)
+    "region_colour_key" UNIQUE CONSTRAINT, btree (colour)
+    "region_name_key" UNIQUE CONSTRAINT, btree (name)
+Foreign-key constraints:
+    "region_colour_fkey" FOREIGN KEY (colour) REFERENCES colour(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ```
 ## Notes
 
