@@ -76,10 +76,10 @@ CW,Curaçao
 CX,Christmas Island
 CY,Cyprus
 CZ,Czech Republic
-dac-countries-average,DAC Countries, Average
-dac-countries-total,DAC Countries, Total
-dac-eu-members-and-ec-total,DAC EU Members + EC, Total
-dac-eu-members-total,DAC EU Members, Total
+dac-countries-average,"DAC Countries, Average"
+dac-countries-total,"DAC Countries, Total"
+dac-eu-members-and-ec-total,"DAC EU Members + EC, Total"
+dac-eu-members-total,"DAC EU Members, Total"
 DE,Germany
 DJ,Djibouti
 DK,Denmark
@@ -87,7 +87,7 @@ DM,Dominica
 DO,Dominican Republic
 DZ,Algeria
 eac,East African Community
-east-asia,Far East Asia, regional
+east-asia,"Far East Asia, regional"
 ebrd,European Bank for Reconstruction and Development [EBRD]
 EC,Ecuador
 EE,Estonia
@@ -97,7 +97,7 @@ ER,Eritrea
 ES,Spain
 ET,Ethiopia
 EU,European Union
-europe,Europe, regional
+europe,"Europe, regional"
 ex-yugoslavia,States Ex-Yugoslavia unspecified
 fao,Food and Agriculture Organisation [FAO]
 FI,Finland
@@ -106,7 +106,7 @@ FK,Falkland Islands (Malvinas)
 FM,Micronesia (Federated States of)
 FO,Faroe Islands
 FR,France
-g7-countries-total,G7 Countries, Total
+g7-countries-total,"G7 Countries, Total"
 GA,Gabon
 gavi,Global Alliance for Vaccines and Immunization [GAVI]
 GB,United Kingdom of Great Britain and Northern Ireland
@@ -150,9 +150,9 @@ IM,Isle of Man
 imf,IMF
 imf-concessional-trust-funds,IMF (Concessional Trust Funds)
 IN,India
-inter-american-development-bank-total,Inter-American Development Bank, Total
+inter-american-development-bank-total,"Inter-American Development Bank, Total"
 international-labour-organisation,International Labour Organisation
-international-monetary-fund-total,International Monetary Fund, Total
+international-monetary-fund-total,"International Monetary Fund, Total"
 IO,British Indian Ocean Territory
 IQ,Iraq
 IR,Iran (Islamic Republic of)
@@ -192,7 +192,7 @@ ME,Montenegro
 MF,Saint Martin (French part)
 MG,Madagascar
 MH,Marshall Islands
-middle-east,Middle East, regional
+middle-east,"Middle East, regional"
 MK,Macedonia (the former Yugoslav Republic of)
 ML,Mali
 MM,Myanmar
@@ -205,7 +205,7 @@ MR,Mauritania
 MS,Montserrat
 MT,Malta
 MU,Mauritius
-multilateral-total,Multilateral, Total
+multilateral-total,"Multilateral, Total"
 MV,Maldives
 MW,Malawi
 MX,Mexico
@@ -219,22 +219,22 @@ NG,Nigeria
 NI,Nicaragua
 NL,Netherlands
 NO,Norway
-non-dac-countries-total,Non-DAC Countries, Total
+non-dac-countries-total,"Non-DAC Countries, Total"
 nordic-dev-fund,Nordic Development Fund [NDF]
-north-central-america,North & Central America, regional
-north-of-sahara,North of Sahara, regional
+north-central-america,"North & Central America, regional"
+north-of-sahara,"North of Sahara, regional"
 NP,Nepal
 NR,Nauru
 NU,Niue
 NZ,New Zealand
-oceania,Oceania, regional
+oceania,"Oceania, regional"
 ofid,OPEC Fund for International Development [OFID]
 OM,Oman
 organisation-unspecified,"Organisation, unspecified"
 osce,OSCE
 other-donor-countries,Other donor countries
 other-multilaterals,Other Multilaterals
-other-multilateral-total,Other Multilateral, Total
+other-multilateral-total,"Other Multilateral, Total"
 PA,Panama
 PE,Peru
 PF,French Polynesia
@@ -245,14 +245,14 @@ PL,Poland
 PM,Saint Pierre and Miquelon
 PN,Pitcairn
 PR,Puerto Rico
-private-donors-total,Memo: Private Donors, Total
+private-donors-total,"Memo: Private Donors, Total"
 PS,Palestine, State of
 PT,Portugal
 PW,Palau
 PY,Paraguay
 QA,Qatar
 RE,Réunion
-regional-development-banks-total,Regional Development Banks, Total
+regional-development-banks-total,"Regional Development Banks, Total"
 region-unspecified,"Region, unspecified"
 RO,Romania
 RS,Serbia
@@ -272,10 +272,10 @@ SL,Sierra Leone
 SM,San Marino
 SN,Senegal
 SO,Somalia
-south-america,South America, regional
-south-asia,South Asia, regional
-south-central-asia,South & Central Asia, regional
-south-of-sahara,South of Sahara, regional
+south-america,"South America, regional"
+south-asia,"South Asia, regional"
+south-central-asia,"South & Central Asia, regional"
+south-of-sahara,"South of Sahara, regional"
 SR,Suriname
 SS,South Sudan
 ST,Sao Tome and Principe
@@ -310,7 +310,7 @@ unep,UNEP
 unfpa,UNFPA
 unhcr,UNHCR
 unicef,UNICEF
-united-nations-total,United Nations, Total
+united-nations-total,"United Nations, Total"
 unpbf,UN Peacebuilding Fund [UNPBF]
 unrwa,UNRWA
 unta,UNTA
@@ -324,12 +324,12 @@ VG,Virgin Islands (British)
 VI,Virgin Islands (U.S.)
 VN,Viet Nam
 VU,Vanuatu
-west-indies,West Indies, regional
+west-indies,"West Indies, regional"
 WF,Wallis and Futuna
 wfp,WFP
 who,World Health Organisation [WHO]
 world-bank-group,World Bank Group
-world-bank-total,World Bank, Total
+world-bank-total,"World Bank, Total"
 WS,Samoa
 XK,Kosovo
 YE,Yemen
