@@ -1,5 +1,5 @@
 ## Global reference files & control paramteres
-
+![](https://github.com/devinit/datahub-cms/blob/development/global/global_schema_entities.png)
 #### `global.channel` table definition
 ```
  Column |       Type        | Modifiers
