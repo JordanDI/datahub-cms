@@ -181,7 +181,7 @@ PL,Poland,POL,616
 PM,Saint Pierre and Miquelon,SPM,666
 PN,Pitcairn,PCN,612
 PR,Puerto Rico,PRI,630
-PS,Palestine, State of,PSE,275
+PS,"Palestine, State of",PSE,275
 PT,Portugal,PRT,620
 PW,Palau,PLW,585
 PY,Paraguay,PRY,600
@@ -197,7 +197,7 @@ SC,Seychelles,SYC,690
 SD,Sudan,SDN,729
 SE,Sweden,SWE,752
 SG,Singapore,SGP,702
-SH,Saint Helena, Ascension and Tristan da Cunha,SHN,654
+SH,"Saint Helena, Ascension and Tristan da Cunha",SHN,654
 SI,Slovenia,SVN,705
 SJ,Svalbard and Jan Mayen,SJM,744
 SK,Slovakia,SVK,703
@@ -226,8 +226,8 @@ TO,Tonga,TON,776
 TR,Turkey,TUR,792
 TT,Trinidad and Tobago,TTO,780
 TV,Tuvalu,TUV,798
-TW,Taiwan, Province of China,TWN,158
-TZ,Tanzania, United Republic of,TZA,834
+TW,"Taiwan, Province of China",TWN,158
+TZ,"Tanzania, United Republic of",TZA,834
 UA,Ukraine,UKR,804
 UG,Uganda,UGA,800
 UM,United States Minor Outlying Islands,UMI,581
