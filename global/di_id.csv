@@ -68,7 +68,7 @@ CL,Chile
 CM,Cameroon
 CN,China
 CO,Colombia
-country-unspecified,Country, unspecified
+country-unspecified,"Country, unspecified"
 CR,Costa Rica
 CU,Cuba
 CV,Cabo Verde
@@ -230,7 +230,7 @@ NZ,New Zealand
 oceania,Oceania, regional
 ofid,OPEC Fund for International Development [OFID]
 OM,Oman
-organisation-unspecified,Organisation, unspecified
+organisation-unspecified,"Organisation, unspecified"
 osce,OSCE
 other-donor-countries,Other donor countries
 other-multilaterals,Other Multilaterals
@@ -253,7 +253,7 @@ PY,Paraguay
 QA,Qatar
 RE,Réunion
 regional-development-banks-total,Regional Development Banks, Total
-region-unspecified,Region, unspecified
+region-unspecified,"Region, unspecified"
 RO,Romania
 RS,Serbia
 RU,Russian Federation
