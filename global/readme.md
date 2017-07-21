@@ -87,7 +87,7 @@ Referenced by:
 
 id|name|colour
 ---|---|---
-other_sectors_grouped|Other sectors (grouped)|grey_mid
+other-sectors-grouped|Other sectors (grouped)|grey-dark
 
 The [`other-sectors-grouped`](https://github.com/devinit/datahub-cms/blob/master/global/sector.csv#L16) sector is used with the [multilateral profiles](http://data.devinit.org/#!/multilaterals). It is based on a business rule that groups sectors together. The logic is: get top 5 sectors for an organization and group all the other sectors into one category.
 
